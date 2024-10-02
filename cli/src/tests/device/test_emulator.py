@@ -12,7 +12,7 @@ class TestEmulator(BaseDeviceTest):
         self.a_version = "10.0"
         self.d_partition = "550m"
         self.additional_args = ""
-        self.i_type = "google_apis"
+        self.i_type = "google_apis_playstore"
         self.s_img = "x86"
         self.emu = Emulator(self.name, self.device, self.a_version, self.d_partition,
                             self.additional_args, self.i_type, self.s_img)
